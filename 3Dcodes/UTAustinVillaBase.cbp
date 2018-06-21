@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UTAustinVillaBase"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wistral/Desktop/thisCode"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wistral/Desktop/thisCode"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wistral/Desktop/thisCode"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agentspark">
+				<Option output="/home/wistral/Desktop/thisCode/agentspark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wistral/Desktop/thisCode"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wistral/Desktop/thisCode/utwalk"/>
+					<Add directory="/usr/local/include/simspark"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 agentspark"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agentspark/fast">
+				<Option output="/home/wistral/Desktop/thisCode/agentspark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wistral/Desktop/thisCode"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wistral/Desktop/thisCode/utwalk"/>
+					<Add directory="/usr/local/include/simspark"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 agentspark/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/wistral/Desktop/thisCode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wistral/Desktop/thisCode/audio/audio.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/audio/audio.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/behavior.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/behavior.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/checkfall.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/gazebobehavior.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/gazebobehavior.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/kicking.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/naobehavior.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/naobehavior.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/pkbehaviors.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/pkbehaviors.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/behaviors/strategy.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/bodymodel/bodymodel.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/bodymodel/bodymodel.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/headers/headers.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/headers/headers.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/ikfast/ikfast.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/ikfast/ikfast.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/kalman/BallKF.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/kalman/BallKF.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/kalman/OrigKalmanFilter.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/kalman/OrigKalmanFilter.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/kalman/PlayerKF.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/kalman/PlayerKF.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/main.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/math/Geometry.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/math/Geometry.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/math/hctmatrix.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/math/hctmatrix.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/math/vecposition.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/math/vecposition.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/optimization/optimizationbehaviors.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/optimization/optimizationbehaviors.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/parser/parser.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/parser/parser.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/particlefilter/PFLocalization.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/particlefilter/PFLocalization.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/particlefilter/Particle.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/particlefilter/Particle.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/rvdraw/rvdraw.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/rvdraw/rvdraw.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/servercomm/primitives.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/skills/curve3d.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/skills/curve3d.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/skills/skill.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/skills/skill.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/Module.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/Module.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/MotionCore.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/MotionCore.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/common/NMatrix.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/common/NMatrix.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/common/PIDController.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/common/PIDController.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/kinematics/ForwardKinematics.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/kinematics/ForwardKinematics.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/kinematics/InverseKinematics.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/kinematics/InverseKinematics.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/kinematics/KinematicsModule.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/kinematics/KinematicsModule.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/math/Geometry.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/math/Geometry.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/math/MVTools.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/math/MVTools.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/math/RotationMatrix.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/math/RotationMatrix.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/Lock.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/Lock.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/Logger.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/Logger.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/Memory.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/Memory.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/MemoryBlock.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/MemoryBlock.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/PrivateMemory.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/PrivateMemory.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/SharedMemory.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/memory/SharedMemory.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/motion/MotionModule.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/motion/MotionModule.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/motion/UTWalkEngine.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/motion/UTWalkEngine.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/motion/WalkEngineParameters.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/motion/WalkEngineParameters.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/sensor/InertialFilter.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/sensor/InertialFilter.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/sensor/SensorModule.cpp">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/utwalk/sensor/SensorModule.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/worldmodel/worldmodel.cc">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/worldmodel/worldmodel.h">
+			<Option target="agentspark"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wistral/Desktop/thisCode/cmake/FindRcssnet3d.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
