@@ -262,6 +262,8 @@ protected:
     double OP2MeDistance();
     // 用于修正踢球的目标位置
     VecPosition goalKickCorrect(VecPosition);
+    //守门员防守的函数
+    SkillType Golie_Walk_Defend();
 public:
 
     NaoBehavior(const std::string teamName, int uNum, const map<string, string>& namedParams_, const string& rsg_);

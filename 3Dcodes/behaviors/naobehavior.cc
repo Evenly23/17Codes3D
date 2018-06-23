@@ -1102,6 +1102,65 @@ double NaoBehavior::OP2MeDistance()
     }
     return distance;
 }
+//TODO:remain to edit, original name is Golie_Walk_Defend
+SkillType NaoBehavior::Golie_Walk_Defend() {
+    VecPosition targ1, targ2;
+    VecPosition op = worldModel->getOpponent(nearest2BallTM());
+    double myX, myY, d1, d2;
+    if (worldModel->getUNum() == 1) {
+        d1 = (abs((ball.getY() - op.getY())) * (15 + op.getX())
+             ) / (op.getX() - ball.getX());
+        if (ball.getX() < -6 && ball.getX() > -4 && op.getX() > ball.getX() && op.getY() <= ball.getY())
+        {
+            myX = -15;
+            myY = op.getY() + d1;
+            targ1 = VecPosition(myX, myY, 0);
+            if (myY < 1.1)
+                return goToTarget(targ1);
+            else
+                return goToTarget(VecPosition(-15, 0, 0));
+        }
+        else if (ball.getX() < -6 && ball.getX() > -4 && op.getX() > ball.getX()
+                 && op.getY() > ball.getY()) {
+            myX = -15;
+            myY = op.getY() - d1;
+            targ1 = VecPosition(myX, myY, 0);
+            if (myY > -1.1)
+                return goToTarget(targ1);
+            else
+                return goToTarget(VecPosition(-15, 0, 0));
+        } else if (ball.getX() < -3)
+            return kickBall(KICK_DRIBBLE, oppGoal);
+        else
+            return goToTarget(VecPosition(-15, 0, 0));
+    }
+    if (worldModel->getUNum() == 2) {
+        d2 = (abs((ball.getY() - op.getY())) * (13.2 + op.getX())) / (op.getX() - ball.getX());
+        if (ball.getX() < -9 && op.getX() > ball.getX() && op.getY() <= ball.getY())
+        {
+            myX = -13.2;
+            myY = op.getY() + d2;
+            targ2 = VecPosition(myX, myY, 0);
+            if (myY < 3.0)
+                return goToTarget(targ2);
+            else
+                return goToTarget(VecPosition(-13.2, 0, 0));
+        }
+        else if (ball.getX() < -9 && op.getX() > ball.getX() && op.getY() > ball.getY())
+        {
+            myX = -13.2;
+            myY = op.getY() - d2;
+            targ2 = VecPosition(myX, myY, 0);
+            if (myY < 3.0)
+                return goToTarget(targ2);
+            else
+                return goToTarget(VecPosition(-13.2, 0, 0));
+        }
+        else if (ball.getX() < -4)
+            return kickBall(KICK_DRIBBLE, oppGoal);
+    }
+    return kickBall(KICK_DRIBBLE,oppGoal);
+}
 SkillType  NaoBehavior::testPlayMode()
 {
     if(worldModel->getUNum()==1)
